@@ -1,0 +1,593 @@
+*{
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.svglist{
+    width: 20px;
+    margin-right: 15px;
+}
+
+
+.portfolio-container {
+    display: flex;
+    width: auto;
+    height: 1600px;
+    padding: 0;
+}
+
+.nav-contaiiner {
+    width: 20%;
+    border-right-width: 2px;
+    border-right-color: black;
+    border-right-style: solid;
+    background-color: #302d2d;
+    color: aqua;
+}
+
+.aside-container{
+        width: 80%;
+        padding: 0px;
+        position: relative;
+        background-color: #1c1409;
+      
+        color: white;
+    
+    
+}
+
+.myclas{
+    background-color: #da0000;
+}
+
+.myname{
+    color: #337ab7;
+    font-style: oblique;
+    font-family: initial;
+}
+.nav-contaiiner ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 2.3vw;
+    padding: 0px;
+}
+
+.logo{
+    margin: 30px 0 110px;
+    font-size: 2.7vw;
+    position: relative;
+    text-align: center;
+}
+.logo p span{
+    font-size: 4vw;
+    color: blueviolet;
+
+}
+
+.nav-contaiiner ul li:last-child{
+    margin-bottom: 100px;
+}
+
+
+.borderstyle{
+    position: absolute;
+    width: 2vw;
+    height:2vw;
+}
+.br1{
+    
+    border-bottom: 5px solid blueviolet;
+    border-left: 5px solid blueviolet;
+    left: 2vw;
+    bottom: -4px;
+
+}
+.br2{
+    border-right: 5px solid blueviolet;
+    border-top: 5px solid blueviolet;
+    right: 2vw;
+
+}
+a:hover{
+  text-decoration: none;  
+    
+}
+.nav-contaiiner ul li:hover  a{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+.nav-contaiiner ul li:hover  svg {
+    fill: rgb(255, 255, 255);
+   
+}
+
+.limystylebox {
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 0px 6px 0px;
+    padding: 4px;
+    background-color: #402f2f;
+    transition: 1s;
+}
+.limystylebox:hover {
+    background-color: #364f54;
+    transform: scale(1.2);
+}
+
+
+.settin-container{
+    position: fixed;
+    right: -262px;
+    display: flex;
+    z-index: 10000;
+    padding: 10px;
+    top: 100px;
+    background-color: rgb(151 121 85 / 30%);
+    border: 1px solid;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.theme-section{
+    width: 10vw;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.color-theme {
+display: flex;
+gap: 15px;
+height: 20px;
+}
+
+
+.settint-darkmode img:hover{
+    background-color: #8aaeef;
+    border-radius: 30%;
+}
+   
+.color-theme div{
+    width: 23%;
+    border-radius: 50%;
+    background-color: blueviolet;
+    border: 2px solid #cddc39;
+    transform: scale(1.5);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.color-theme div:first-child{
+
+    background-color: #337ab7;
+}
+.color-theme div:nth-child(2){
+
+    background-color: rgb(197, 62, 0);
+}
+ 
+.color-theme div:last-child{
+
+    background-color: rgb(134, 0, 45);
+}
+
+
+.color-theme div:hover{
+    border: 2px solid #da0000;
+}
+
+.settint-darkmode{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    transition: 1s;
+}
+.settint-darkmode img{
+width: 3vw;
+cursor: pointer;
+}
+   
+.about-container{
+    display: flex;
+    position: absolute;
+    z-index: 10;
+}
+.mypictuer-container{
+    position: relative;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.brimag{
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+}
+
+.mypictuer-container img{
+   width: 30vw;
+   filter: brightness(0.7);
+
+}
+
+.br1imag {
+    left: -4vw;
+    top: 24vw;
+    border-bottom: 10px solid blueviolet;
+    border-left: 10px solid blueviolet;
+}
+.br2imag{
+    border-right: 10px solid blueviolet;
+    border-top: 10px solid blueviolet;
+}
+
+.about-me{
+    padding-top: 100px;
+    margin-left: 20px;
+}
+
+
+.about-me p{
+    width: 80%;
+}
+
+.abme{
+    position: absolute;
+    display: none;
+}
+
+.r1{
+height: 5px;
+background-color: #337ab7;
+}
+
+.ruler div:first-child{
+    width: 50px;
+    margin-bottom: 5px
+}
+.ruler div:last-child{
+    width: 30px;
+}
+
+.btnglobal{
+    margin-top: 75px;
+  color: rgb(51, 122, 183);
+}
+
+
+.info{
+    width: 50%;
+    font-size: 1.3vw;
+    font-style: oblique;
+    margin-top: 30px;
+}
+
+.info div{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #686e27 1px solid;
+    
+}
+.infocolor{
+    color: #337ab7;
+}
+.btnmargin{margin-right: 20px;}
+
+
+
+
+.myinfo-container{
+    display: flex;
+ 
+}
+
+.secvices-container {
+    margin-top: 100px;
+    margin-left: 15px;
+}
+
+.language-container{
+    width: 40%;
+    padding: 20px;
+    
+    }
+
+    .language-container div div{
+    display: flex;
+    justify-content: space-between;
+        
+        }
+
+
+        .progress{
+            background-color: #968888;
+        }
+        
+        .progress div{
+            background-color: #da0000;
+        }
+
+        .pp1{
+            width: 90%;
+           height: 70px;
+
+        }
+        .pp2{
+            width: 70%;
+        }
+        .pp3{
+            width: 50%;
+        }
+
+.education-conatianer{
+
+    
+    width: 50%; 
+}
+
+
+.svgschollicon{
+    width: 2vw;
+    fill: white;
+    position: absolute;
+}
+
+.schollicon{
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.educationinfo{
+    margin-left: 4vw;
+    border-left: 2px solid black;
+    padding-left: 20px;
+}
+
+.colorsmode{
+color: #337ab7;
+}
+
+
+.eduction-and-languages-container{
+    display: flex;
+}
+
+.titlelang{
+    text-align: center;
+font-size: 2vw;
+}
+
+.secvices-container{
+    display: none;
+}
+
+
+.card svg{
+    width: 15vw;
+    fill: rgb(223, 255, 109);
+}
+
+.card {
+    width: 40%;
+    background-color: rgb(49 112 116);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13px;
+    box-shadow: 0px 0px 7px;}
+.order-one{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.card h5{
+    text-align: center;
+    font-size: 3vw;
+    color: #ff8c81;   
+}
+.card p{
+ text-indent: 14px;
+width: 70%;
+}
+
+.portfolio-section{
+    display: none;
+  
+   }
+
+.portfolio-section{
+display: flex;
+margin-top: 30px;
+
+}
+.pglobal
+{
+    display: none;
+}
+
+   
+
+.portfolio-section img ,.portfolio-section video{
+
+    width: 40%;
+    margin-top: 67px;
+    margin-left: 30px;
+    border: 10px solid white;
+}
+
+
+
+.contact-section{
+    display: none;
+}
+.su-contact-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.su-contact-container div{
+width: 24%;
+background-color: #337ab7;
+text-align: center;
+padding: 15px;
+}
+.text-center{
+    text-align: center;
+}
+
+.su-contact-container div svg{
+    width: 5vw;
+    height: 5vw;
+}
+.svgcard{
+    fill: #cddc39;
+}
+
+.content-email{
+padding: 30px;
+}
+
+.name-email-input {
+    display: flex;
+    justify-content: space-between;
+   
+} 
+
+.name-email-input input{
+    width: 40%;
+    height: 4vw;
+} 
+
+.txtarea{
+    width: 100%;
+}
+.suject input{
+    margin: 20px 0px;
+    width: 100%;
+    height: 4vw;
+}
+
+.sendcon input
+{
+    float: right;
+    color: white;
+}
+.inputstyle{
+    background-color: #1c1c15;
+    border: 0px;
+    border-bottom: 1px #e5ed6c solid;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.menu-icon{
+    display: none;
+}
+.menu-icon img{
+    width: 35px;
+}
+
+@media  screen and  (max-width:767px) {
+    .menu-icon{
+        display: block;
+        position: fixed;
+        background-color: cornflowerblue;
+        z-index: 90;
+        padding: 6px;
+        margin: 6px;
+    }
+    .about-container {
+      display: block;
+    }
+    .displynon{
+        display: none;
+    }
+    .mypictuer-container {
+        position: fixed;
+        margin-right: 20px;
+        margin-top: 20px;
+        top: 7px;
+        z-index: -1;
+    }
+    .mypictuer-container img
+{
+    width: 75%;
+    position: fixed;
+
+}
+.nav-contaiiner {
+        width: 65%;
+        position: fixed;
+        display: none;
+        z-index: 90;
+    
+}
+
+.aside-container {
+    width: 100%;
+  
+}
+
+.about-me h3{
+    font-size: 25px;
+}
+.about-me p{
+    font-size: 15px;
+}
+.myinfo-container ,.eduction-and-languages-container ,.order-one{
+    display: block; 
+}
+.portfolio-container {
+    height: 3000px;
+}
+.education-conatianer ,.language-container,.info {
+    width: 80%;
+    margin: auto;
+}
+.card {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 23px;}
+    .portfolio-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+.portfolio-section img,.portfolio-section video{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.su-contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.contact-section {
+    margin-top: 60px;
+}
+.su-contact-container div {
+    width: 70%;
+}
+}
+
+@media  screen and  (min-width:768px) {
+    
+}
+@media  screen and  (min-width:1023px) {
+    
+}
